@@ -1,0 +1,47 @@
+@media screen and (max-width: 575px) {
+  .section-title h2,
+  .header .nav-inner ul li a {
+    font-size: 35px;
+  }
+
+  .home-text h1 {
+    font-size: 30px;
+  }
+
+  .home-text h2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-form,
+  .contact-info {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .portfolio-item {
+    width: calc(100% - 30px);
+  }
+
+  .about-img {
+    width: 100%;
+    margin: 0 0 50px;
+  }
+
+  .about-text p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .home-img {
+    width: 100%;
+    order: -1;
+  }
+
+  .home-text {
+    text-align: center;
+    margin: 15px 0 0;
+  }
+}
